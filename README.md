@@ -19,7 +19,7 @@ Generally, selecting more features tends to improve prediction performance. Howe
 
 
 
-**Table 1.** Mean test performance (± standard deviation) of CORAL-MoE, sparse MoE, CORAL-MLP, and sparse MLP across four large-scale tabular datasets. Accuracy (`↑`) and RMSE (`↓`) are used as surrogate metrics for evaluating model performance over three independent runs.For a fair comparison, we controlled the number of selected features to approximately half of the available features.
+**Table 1.** Mean test performance (± standard deviation) of CORAL-MoE, sparse MoE, CORAL-MLP, and sparse MLP across four large-scale tabular datasets. Accuracy (`↑`) and RMSE (`↓`) are used as surrogate metrics for evaluating model performance over three independent runs. For a fair comparison, we controlled the number of selected features to approximately half of the available features.
 
 | Dataset             | Performance | Sparse MoE           | CORAL-MoE           | Sparse MLP           | CORAL-MLP           |
 |---------------------|-------------|-----------------------|----------------------|-----------------------|---------------------|
