@@ -12,3 +12,13 @@
 | Jannis              | Accuracy `↑`  | 0.68 (1.80×10⁻³)      | 0.68 (1.45×10⁻³)     | 0.65 (4.02×10⁻³)      | 0.67 (1.91×10⁻³)    |
 | ALOI                | Accuracy `↑`  | 0.75 (2.54×10⁻³)      | 0.85 (1.83×10⁻³)     | 0.73 (3.67×10⁻³)      | 0.78 (2.48×10⁻³)    |
 | California Housing  | RMSE `↓`      | 0.62 (1.71×10⁻³)      | 0.61 (1.50×10⁻³)     | 0.63 (2.97×10⁻³)      | 0.61 (1.61×10⁻³)    |
+
+
+**Table 2.** Runtime (in seconds) of CORAL-Net on four large-scale tabular datasets.
+
+| Data                        | CORAL-Net Runtime |
+|-----------------------------|-------------------|
+| California Housing (20640×8) | 264.57 s          |
+| Helena (65196×27)           | 326.89 s          |
+| Janis (83733×54)            | 407.71 s          |
+| ALOI (108000×128)           | 774.99 s          |
