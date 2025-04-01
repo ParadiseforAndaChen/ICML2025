@@ -5,7 +5,9 @@
 **Figure 1.** Two analytic neural networks without hidden layer.
 ![Relative Improvement.](relative_improvement.png)
 **Figure 2. The Relative Improvement of CORAL-Net over other methods.**
-For a given method a, the Relative Improvement of CORAL-Net over method a when selecting the same number of features is defined as Relative Improvement = $\frac{\text{CORAL-Net} - \text{Method } a}{\text{Method } a} \times 100$ percent
+For a given method a, the Relative Improvement of CORAL-Net over method a when selecting the same number of features is defined as $$
+\text{Relative Improvement} = \frac{\text{Performance of CORAL-Net} - \text{Performance of method } a}{\text{Performance of method } a} \times 100\%
+$$
 
 Generally, selecting more features tends to improve prediction performance. However, since the performance has a natural upper bound, the improvement tends to diminish as more features are selected. Nevertheless, as shown in the figure, CORAL-Net still achieves significant improvement when only a small number of features are selected.
 
