@@ -22,3 +22,12 @@
 | Helena (65196×27)           | 326.89 s          |
 | Janis (83733×54)            | 407.71 s          |
 | ALOI (108000×128)           | 774.99 s          |
+
+**Table 3.** Basic statistics of the four tabular datasets used in our experiments, including number of features, number of samples, and task type.
+
+| Dataset            | Features | Sample Size | Type                     |
+|--------------------|----------|-------------|--------------------------|
+| California Housing | 8        | 20,640      | Tabular / Regression     |
+| Helena             | 27       | 65,196      | Tabular / Classification |
+| Jannis             | 54       | 83,733      | Tabular / Classification |
+| ALOI               | 128      | 108,000     | Tabular / Classification |
