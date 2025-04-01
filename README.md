@@ -31,3 +31,11 @@
 | Helena             | 27       | 65,196      | Tabular / Classification |
 | Jannis             | 54       | 83,733      | Tabular / Classification |
 | ALOI               | 128      | 108,000     | Tabular / Classification |
+
+**Table 4.** RMSE comparison between the original CORAL-Net with linear activation and the modified version using LeakyReLU. Lower values indicate better performance.
+
+|Performance|$x^\top \beta + h(x \circ \beta)$|$\text{LeakyReLU(x)}^\top \beta + h(x \circ \beta)$|
+|--|--|--|
+|RMSE`↓`|0.49 (4.06×10⁻³)|0.41 (2.16×10⁻³)|
+|Precision`↑`|0.78 (0.16)|1.00 (0.00)|
+|Recall`↑`|0.78 (0.16)|1.00 (0.00)|
