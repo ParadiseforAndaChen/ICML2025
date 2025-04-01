@@ -18,10 +18,10 @@
 
 | Data                        | CORAL-Net Runtime |
 |-----------------------------|-------------------|
-| California Housing (20640×8) | 264.57 s          |
-| Helena (65196×27)           | 326.89 s          |
-| Janis (83733×54)            | 407.71 s          |
-| ALOI (108000×128)           | 774.99 s          |
+| California Housing (20640*8) | 264.57 s          |
+| Helena (65196*27)           | 326.89 s          |
+| Janis (83733*54)            | 407.71 s          |
+| ALOI (108000*128)           | 774.99 s          |
 
 **Table 3.** Basic statistics of the four tabular datasets used in our experiments, including number of features, number of samples, and task type.
 
