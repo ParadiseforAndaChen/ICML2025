@@ -5,7 +5,7 @@
 **Figure 1.** Two analytic neural networks without hidden layer.
 ![Relative Improvement.](relative_improvement.png)
 **Figure 2. The Relative Improvement of CORAL-Net over other methods.**
-For a given method a, the Relative Improvement of CORAL-Net over method a when selecting the same number of features is defined as
+For a given method $a$, the Relative Improvement of CORAL-Net over method a when selecting the same number of features is defined as
 
 **Relative Improvement** = ((Performance of CORAL-Net − Performance of method *a*) / Performance of method *a*) × 100%
 
