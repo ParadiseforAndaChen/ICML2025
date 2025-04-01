@@ -57,3 +57,10 @@
 | MNIST | Accuracy ↑   | **0.94 (3.23 × 10⁻³)**   | 0.17 (2.01 × 10⁻²)     | _0.80 (1.63 × 10⁻²)_    | 0.58 (4.01 × 10⁻³)     | 0.86 (2.35 × 10⁻³)        |
 | USPS  | Accuracy ↑   | **0.95 (5.40 × 10⁻⁴)**   | 0.28 (2.05 × 10⁻³)     | _0.77 (8.93 × 10⁻³)_    | 0.74 (1.40 × 10⁻²)     | 0.90 (2.23 × 10⁻²)        |
 
+**Table 7.** Prediction accuracy on private medical dataset containing 340 patients and 553 features, including 37 clinical indicators and 516 urine protein expression levels. The task is to identify predictive features for patient recovery after intracerebral hemorrhage (ICH). We compare CORAL-Net with established feature selection methods including Boruta, LassoNet, DFS, Knockoff, and GCRNet, all evaluated using predefined training/test splits determined by medical professionals. Each method selects 36 variables for a fair comparison, except CORAL-Net, which achieved the best performance using only 24 variables. Notably, several variables identified by CORAL-Net align with clinically validated ICH prognosis indicators in the literature. `↑` indicates that higher values are better. **Bold** denotes the best-performing method.
+
+| Performance | Boruta | CORAL-Net | LassoNet | DFS   | Knockoff | GCRNet |
+|-------------|--------|-----------|----------|-------|----------|--------|
+| Accuracy    | 0.67 (0) | 0.78 (5.84 × 10⁻³) | 0.74 (7.95 × 10⁻²) | 0.74 (6.68 × 10⁻³) | 0.72 (7.84 × 10⁻³) | 0.69 (5.67 × 10⁻³) |
+
+
