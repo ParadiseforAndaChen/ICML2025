@@ -67,7 +67,7 @@ Generally, selecting more features tends to improve prediction performance. Howe
 
 **Table 6.** Test accuracy of CORAL-Net compared with STG and FIR on MNIST and USPS datasets, using 50 selected features. STG-50 and STG-500 refer to models trained with 50 and 500 epochs, respectively. FIR-500 and FIR-15000 refer to FIR models trained with 500 and 15,000 epochs. Each result is reported as the mean accuracy over three independent runs, with standard deviation in parentheses. `↑` indicates that higher values are better. **Bold** highlights the best performance, and _italic_ indicates the second-best.
 
-| Data  | Performance | CORAL-500 (50 features) | STG-50 (50 features) | STG-500 (50 features) | FIR-500 (50 features) | FIR-15000 (50 features) |
+| Data  | Performance | CORAL-500 (50 features) | STG-50 (50 features) | STG-500 (50 features) | FIR-500 (50 features) | FIR-large epoch (50 features) |
 |-------|-------------|--------------------------|------------------------|-------------------------|------------------------|---------------------------|
 | MNIST | Accuracy ↑   | **0.94 (3.23 × 10⁻³)**   | 0.17 (2.01 × 10⁻²)     | _0.80 (1.63 × 10⁻²)_    | 0.58 (4.01 × 10⁻³)     | 0.86 (2.35 × 10⁻³)        |
 | USPS  | Accuracy ↑   | **0.95 (5.40 × 10⁻⁴)**   | 0.28 (2.05 × 10⁻³)     | _0.77 (8.93 × 10⁻³)_    | 0.74 (1.40 × 10⁻²)     | 0.90 (2.23 × 10⁻²)        |
