@@ -48,3 +48,12 @@
 | Janis (83733*54)   | Accuracy     `↑`    | *0.67 (1.91 × 10⁻³)*  | 0.64 (3.10 × 10⁻³)  | **0.68 (2.22 × 10⁻³)**  | 0.57 (2.00 × 10⁻²)  | 0.34 (1.77 × 10⁻³)  |
 | ALOI (108000*128) | Accuracy      `↑`   | **0.78 (2.48 × 10⁻³)**  | 0.24 (4.14 × 10⁻³)  | *0.67 (2.03 × 10⁻³)*  | 0.18 (1.12 × 10⁻²)  | 0.24 (4.98 × 10⁻³)  |
 | California Housing (20640*8)   | RMSE  `↓`      | **0.61 (1.61 × 10⁻³)**  | 0.63 (1.24 × 10⁻²)  | 0.87 (6.38 × 10⁻²)  | *0.62 (8.94 × 10⁻³)*  | 0.65 (1.48 × 10⁻²)  |
+
+
+**Table 6.** Test accuracy of CORAL-Net compared with STG and FIR on MNIST and USPS datasets, using 50 selected features. STG-50 and STG-500 refer to models trained with 50 and 500 epochs, respectively. FIR-500 and FIR-15000 refer to FIR models trained with 500 and 15,000 epochs. Each result is reported as the mean accuracy over three independent runs, with standard deviation in parentheses. `↑` indicates that higher values are better. **Bold** highlights the best performance, and _italic_ indicates the second-best.
+
+| Data  | Performance | CORAL-500 (50 features) | STG-50 (50 features) | STG-500 (50 features) | FIR-500 (50 features) | FIR-15000 (50 features) |
+|-------|-------------|--------------------------|------------------------|-------------------------|------------------------|---------------------------|
+| MNIST | Accuracy ↑   | **0.94 (3.23 × 10⁻³)**   | 0.17 (2.01 × 10⁻²)     | _0.80 (1.63 × 10⁻²)_    | 0.58 (4.01 × 10⁻³)     | 0.86 (2.35 × 10⁻³)        |
+| USPS  | Accuracy ↑   | **0.95 (5.40 × 10⁻⁴)**   | 0.28 (2.05 × 10⁻³)     | _0.77 (8.93 × 10⁻³)_    | 0.74 (1.40 × 10⁻²)     | 0.90 (2.23 × 10⁻²)        |
+
