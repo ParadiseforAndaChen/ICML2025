@@ -78,4 +78,26 @@ Generally, selecting more features tends to improve prediction performance. Howe
 |-------------|--------|-----------|----------|-------|----------|--------|
 | Accuracy    | 0.67 (0) | 0.78 (5.84 × 10⁻³) | 0.74 (7.95 × 10⁻²) | 0.74 (6.68 × 10⁻³) | 0.72 (7.84 × 10⁻³) | 0.69 (5.67 × 10⁻³) |
 
+**Table 8.** (Updated Table 5) Hyperparameter settings of all benchmarked methods on the 12 real-world datasets. “One batch” refers to updating the neural network with all samples in one epoch.
+
+| Method     | Hyperparameter Settings                                                                 | Datasets                                               |
+|------------|-------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| **DFS**    | $(T=25, s=5, E=1000, \eta=0.001, \text{batch size} = \text{one batch})$                  | BASEHOCK, ISOLET, GISETTE, PCMAC, COIL20              |
+|            | $(T=25, s=5, E=30, \eta=0.001, \text{batch size} = \text{one batch})$                    | SMK_CAN_187, TOX_171                                   |
+|            | $(T=25, s=5, E=500, \eta=0.001, \text{batch size} = \text{one batch})$                   | USPS                                                   |
+|            | $(T=25, s=5, E=500, \eta=0.1, \text{batch size} = 128)$                                  | MNIST                                                  |
+| **LassoNet** | $(\text{Epoch}=1000, \eta=0.001, \text{batch size} = \text{one batch})$               | BASEHOCK, ISOLET, GISETTE, PCMAC, COIL20              |
+|            | $(30, 0.001, \text{one batch})$                                                          | SMK_CAN_187, TOX_171                                   |
+|            | $(500, 0.001, \text{one batch})$                                                         | USPS                                                   |
+|            | $(500, 0.001, 128)$                                                                      | MNIST                                                  |
+| **STG**     | $(1000, \sigma=0.5, \eta=0.1, \text{batch size} = \text{one batch})$                    | BASEHOCK, ISOLET, GISETTE, PCMAC, COIL20              |
+|            | $(50, 0.5, 0.001, \text{one batch})$                                                     | SMK_CAN_187                                            |
+|            | $(50, 0.5, 0.1, \text{one batch})$                                                       | TOX_171                                                |
+|            | $(500, 0.5, 0.1, \text{one batch})$                                                       | USPS                                                   |
+|            | $(500, 0.5, 0.001, 128)$                                                                  | MNIST                                                  |
+| **FIR**     | $(4000, 0.001, 32, [12, 1])$                                                             | BASEHOCK                                               |
+|            | $(4000, 0.001, 32, [128, 64, 32, 1])$                                                    | ISOLET, GISETTE                                        |
+|            | $(4000, 0.001, 32, [32, 16, 1])$                                                         | PCMAC, COIL20, USPS                                    |
+|            | $(200, 0.001, 32, [32, 16, 1])$                                                          | SMK_CAN_187, TOX_171                                   |
+|            | $(15000, 0.001, 32, [768, 512, 256, 128, 1])$                                            | MNIST                                                  |
 
