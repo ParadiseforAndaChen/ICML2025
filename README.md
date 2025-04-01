@@ -6,7 +6,7 @@
 
 
 ![Relative Improvement.](Relative_Improvement.png)
-**Figure 2.**The Relative Improvement of CORAL-Net over other methods.
+**Figure 2.** The Relative Improvement of CORAL-Net over other methods.
 
 
 
