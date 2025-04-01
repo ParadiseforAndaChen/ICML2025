@@ -40,7 +40,7 @@
 |Precision`↑`|0.78 (0.16)|1.00 (0.00)|
 |Recall`↑`|0.78 (0.16)|1.00 (0.00)|
 
-**Table 5.** Test accuracy of CORAL-Net, LassoNet, DFS, Knockoff, and GCRNet on four large-scale datasets from the Deep Tabular Learning benchmark. Approximately half of the features were selected for each model. All models used identical MLP architectures (hidden dim = 12), trained for 1,000 epochs with Adam optimizer and a learning rate of 0.001. Results are averaged over three independent runs on fixed train/test splits.
+**Table 5.** Test accuracy of CORAL-Net, LassoNet, DFS, Knockoff, and GCRNet on four large-scale datasets from the Deep Tabular Learning benchmark. All models used identical MLP architectures (hidden dim = 12), trained for 1,000 epochs with Adam optimizer and a learning rate of 0.001. Results are averaged over three independent runs on fixed train/test splits. `↑` indicates that higher values are better, while `↓` indicates that lower values are preferred. **Bold** highlights the best-performing method, and _italic_ indicates the second-best.
 
 | Data | Performance | CORAL               | LassoNet            | DFS                 | Knockoff            | GCRNet              |
 |------|-------------|---------------------|---------------------|---------------------|---------------------|---------------------|
