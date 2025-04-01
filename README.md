@@ -3,6 +3,8 @@
 ![Two analytic neural networks without hidden layer.](identifiability.png)
 
 **Figure 1.** Two analytic neural networks without hidden layer.
+
+
 ![Relative Improvement.](relative_improvement.png)
 **Figure 2. The Relative Improvement of CORAL-Net over other methods.**
 For a given method *a*, the Relative Improvement of CORAL-Net over method a when selecting the same number of features is defined as
