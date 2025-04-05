@@ -8,7 +8,7 @@
 ![Relative Improvement.](Relative_Improvement.png)
 **Figure 2.** The Relative Improvement of CORAL-Net over other methods.
 
-[Medical](https://www.dropbox.com/scl/fi/cil127ny0hsvaf9gj1aaz/feature_medical.png?rlkey=jkgw4i6kc3chzo6io0frr2g1g&st=ib8gdvhs&dl=0 )
+[Medical](https://www.dropbox.com/scl/fi/elncvmt686m6obc7uoezb/feature_selection_medical.pdf?rlkey=f6l28z2q44w2sslc96wcd0n2s&st=yc7gtv76&dl=0)
 **Figure 3.** 
 
 
