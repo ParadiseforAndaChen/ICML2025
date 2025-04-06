@@ -8,7 +8,7 @@
 ![Relative Improvement.](Relative_Improvement.png)
 **Figure 2.** The Relative Improvement of CORAL-Net over other methods.
 
-![Medical .](feature_selection_medical.pdf)
+![Medical.](feature_selection_medical.pdf)
 **Figure 3.** Illustration of severity for lacking network identifiability in feature selection on Medical dataset.
 
 
